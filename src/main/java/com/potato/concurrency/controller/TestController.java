@@ -1,4 +1,4 @@
-package com.potato.concurrency.Controller;
+package com.potato.concurrency.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,4 +11,5 @@ public class TestController {
     public String test() {
         return "request success";
     }
+
 }
